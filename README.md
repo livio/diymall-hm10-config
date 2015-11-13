@@ -328,13 +328,13 @@ Gets or sets the antenna's power. Each power setting is mapped to a specific hex
 
 | Send           | Receive         |
 |----------------|-----------------|
-| AT+RENEW?       | OK+RENEW  |
+| AT+RENEW       | OK+RENEW        |
 
 ### Restart device
 
 | Send      | Receive  |
 |-----------|----------|
-| AT+RESET? | OK+RESET |
+| AT+RESET  | OK+RESET |
 
 
 ### Get RSSI Value
