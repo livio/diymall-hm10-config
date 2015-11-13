@@ -114,7 +114,7 @@ value: 000 to 100
 
 ### Set iBeacon into service mode
 
-Places the iBeacon into service until the device's power is reset. iBeacon mode needs to be enabled first. See TODO provide link 
+Places the iBeacon into service until the device's power is reset. iBeacon mode needs to be enabled first.
 
 | Send           | Receive              |
 |----------------|----------------------|
@@ -190,7 +190,7 @@ Allows the iBeacon's UUID to be changed. The iBeacon's UUID requires four comman
 | 2 | 74278BDA-B644-4520-`8F0C-720E`AF059935 |
 | 3 | 74278BDA-B644-4520-8F0C-720E`AF059935` |
 
-Value: 0x00000001 to 0xFFFFFFFE
+Value: 00000001 to FFFFFFFE
 
 | Send                    | Receive        |
 |-------------------------|----------------|
@@ -200,10 +200,10 @@ Value: 0x00000001 to 0xFFFFFFFE
 #### Example commands to set UUID to 36996276-CB00-40A2-A81E-D7F95858CA7C
 
 ```
-AT+IBE00x36996276 // Sets bytes 0-3 to 36996276
-AT+IBE10xCB0040A2 // Sets bytes 4-7 to CB0040A2
-AT+IBE20xA81ED7F9 // Sets bytes 8-11 to A81ED7F9
-AT+IBE30x5858CA7C // Sets bytes 12-15 to 5858CA7C
+AT+IBE036996276 // Sets bytes 0-3 to 36996276
+AT+IBE1CB0040A2 // Sets bytes 4-7 to CB0040A2
+AT+IBE2A81ED7F9 // Sets bytes 8-11 to A81ED7F9
+AT+IBE35858CA7C // Sets bytes 12-15 to 5858CA7C
 ```
 
 #### Special Notes
