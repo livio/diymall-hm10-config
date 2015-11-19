@@ -248,7 +248,9 @@ values 0x0001 to 0xFFFE
 
 Measured power is a calibrated value of the iBeacons average RSSI value at one meter.
 
-value 0x00 to 0xFF
+value are from 0x00 to 0xFF
+
+0xFF is -1 dBm at 1m and 0x00 is -256 dBm at 1m
 
 **Default** 0xC5
 
