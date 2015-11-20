@@ -298,12 +298,12 @@ Gets or sets the antenna's power. Each power setting is mapped to a specific hex
 
 | Value | Power  	|
 |-------|-----------|
-| 0     | -23dbm    |
-| 1     | -6dbm  	|
-| 2     | 0dbm 		|
-| 3     | 6dbm 		|
+| 0     | -23dBm    |
+| 1     | -6dBm  	|
+| 2     | 0dBm 		|
+| 3     | 6dBm 		|
 
-**Default** 2 (0dbm)
+**Default** 0 (-23dBm)
 
 | Send           | Receive         |
 |----------------|-----------------|
