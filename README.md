@@ -33,6 +33,34 @@ One of the following applications will be required to send commands to the devic
 
 The Diymall Beacon supports a variety of commands. Each of these commands should be sent as ASCII to the device. 
 
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Test Command](#test-command)
+- [Get MAC Address](#get-mac-address)
+- [Get/Set Advertising Interval](#getset-advertising-interval)
+- [Get/Set battery monitor switch](#getset-battery-monitor-switch)
+- [Get Battery Information](#get-battery-information)
+- [Set iBeacon into service mode](#set-ibeacon-into-service-mode)
+- [Get/Set Characteristic](#getset-characteristic)
+- [Get/Set iBeacon deployment mode](#getset-ibeacon-deployment-mode)
+- [System Help Information](#system-help-information)
+- [Get/Set iBeacon switch](#getset-ibeacon-switch)
+- [Get/Set iBeacon UUID](#getset-ibeacon-uuid)
+- [Get/Set iBeacon Major value](#getset-ibeacon-major-value)
+- [Get/Set iBeacon Minor value](#getset-ibeacon-minor-value)
+- [Get/Set iBeacon Measured power](#getset-ibeacon-measured-power)
+- [Get/Set device name](#getset-device-name)
+- [Get/Set Pin Code](#getset-pin-code)
+- [Get/Set device antenna power](#getset-device-antenna-power)
+- [Get/Set device's sleep type](#getset-devices-sleep-type)
+- [Restore to factory defaults](#restore-to-factory-defaults)
+- [Restart device](#restart-device)
+- [Get RSSI Value](#get-rssi-value)
+- [Get last connected device address](#get-last-connected-device-address)
+- [Get/Set Device's Authentication Mode](#getset-devices-authentication-mode)
+- [Get/Set Service UUID](#getset-service-uuid)
+- [Get firmware version](#get-firmware-version)
+
 ### Test Command
 
 | Send | Receive               |
@@ -351,7 +379,7 @@ Gets or sets the antenna's power. Each power setting is mapped to a specific hex
 
 * Requires AT+MODE value > 0
 
-### Get last connect device address
+### Get last connected device address
 
 Gets the MAC address of the last co
 
