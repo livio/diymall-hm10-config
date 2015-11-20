@@ -1,6 +1,6 @@
 # Configuring DIYMall HM-10 BLE 4.0 iBeacon
 
-This README will guide you through the process of configuring the Diyall HM-10 iBeacon. This document was created because the beacon's [official documentation](https://www.adrive.com/public/WHAGyN/FZ1095-iBeacon_en.zip ) is difficult to understand and this document will serve as a summation of the official doc.
+This README will guide you through the process of configuring the [Diymall HM-10 iBeacon](http://www.amazon.com/Diymall%C2%AE-Bluetooth-Near-field-Positioning-Acquisition/dp/B00O2UDZU6). This document was created because the beacon's [official documentation](https://www.adrive.com/public/WHAGyN/FZ1095-iBeacon_en.zip ) is difficult to understand and this document will serve as a summation of the official doc.
 
 ## Notes
 
