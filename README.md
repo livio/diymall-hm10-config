@@ -33,8 +33,6 @@ One of the following applications will be required to send commands to the devic
 
 The Diymall Beacon supports a variety of commands. Each of these commands should be sent as ASCII to the device. 
 
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
-
 - [Test Command](#test-command)
 - [Get MAC Address](#get-mac-address)
 - [Get/Set Advertising Interval](#getset-advertising-interval)
